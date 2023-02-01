@@ -1,7 +1,9 @@
 import React from "react";
+import {Header} from "../../entites";
+
 
 export function MainPage() {
     return (
-        <div>MainPage</div>
+       <Header/>
     )
 }

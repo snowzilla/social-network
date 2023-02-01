@@ -1,0 +1,88 @@
+.header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    margin: 20px 30px 0;
+}
+
+.header-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-search{
+    place-self: end;
+    position: relative;
+}
+
+.input-search input{
+    width: 300px;
+    padding: 13px 0 13px 40px;
+    background: #e3e2e2;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-search svg{
+    width: 22px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+}
+
+.nav svg{
+    width: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+rect {
+    fill: none;
+}
+
+.nav-notification,
+.nav-chat{
+    position: relative;
+}
+
+.notification-number{
+    position: absolute;
+    background: red;
+    width: 13px;
+    display: grid;
+    place-items: center;
+    height: 13px;
+    font-size: 11px;
+    border-radius: 100%;
+    right: 0;
+    color: #ffffff;
+}
+
+.user-menu{
+    position: relative;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.user-menu svg{
+    position: absolute;
+    right: 5px;
+    top: 18px;
+}

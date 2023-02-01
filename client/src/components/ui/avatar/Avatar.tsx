@@ -1,8 +1,9 @@
 import React from "react";
 import './Avatar.css'
+import avatar from '../../../assets/img/avatar.jpg'
 
-export function Avatar () {
+export function Avatar() {
     return (
-        <div></div>
+        <img className='avatar' src={avatar} alt=""/>
     )
 }

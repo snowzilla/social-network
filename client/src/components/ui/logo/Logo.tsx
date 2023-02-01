@@ -3,6 +3,6 @@ import './Logo.css'
 
 export function Logo () {
     return (
-        <h1>socialzilla</h1>
+        <h1>SOCIALZILLA</h1>
     )
 }
