@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body{
     margin: 0;
-    font-family: "Roboto Light", serif;
-    background: #F7F7FC;
+    font-family: 'Roboto', sans-serif;
     cursor: default;
 }
 
@@ -22,4 +23,13 @@ h1{
 
 h2{
     font-weight: 500;
+}
+
+h5{
+    color: #919191;
+}
+
+h3{
+    font-weight: 400;
+    color: #919191;
 }

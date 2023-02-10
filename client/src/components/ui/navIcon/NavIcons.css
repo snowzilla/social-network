@@ -1,0 +1,33 @@
+.nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-icon svg {
+    width: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+rect {
+    fill: none;
+}
+
+.nav-notification,
+.nav-chat {
+    position: relative;
+}
+
+.notification-number {
+    position: absolute;
+    background: red;
+    width: 13px;
+    display: grid;
+    place-items: center;
+    height: 13px;
+    font-size: 11px;
+    border-radius: 100%;
+    right: 0;
+    color: #ffffff;
+}
