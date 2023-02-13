@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 body{
-    margin: 0;
     font-family: 'Roboto', sans-serif;
     cursor: default;
+    overflow: hidden;
+    margin: 0;
 }
 
 h1,
@@ -31,5 +32,12 @@ h5{
 
 h3{
     font-weight: 400;
-    color: #919191;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
 }

@@ -1,0 +1,14 @@
+@keyframes background {
+    100% {background-size: 4000px 1000px}
+}
+
+
+.login-page{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url("../../assets/svg/bg.svg");
+    background-size: 2000px 1000px;
+    background-position: -500px 0;
+    animation: background 14s infinite alternate linear;
+    background-repeat: no-repeat;
+}

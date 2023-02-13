@@ -1,7 +1,10 @@
 import React from "react";
+import './ChatPage.css'
 
 export function ChatPage() {
     return (
-        <div>ChatPage</div>
+        <div className="login-page">
+
+        </div>
     )
 }

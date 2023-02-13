@@ -4,92 +4,6 @@
     margin: 30px 30px 0;
 }
 
-.functional-wrapper {
-    padding-right: 30px;
-}
-
-.user-statistics {
-    background: #F7F7FC;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.user-main-info {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.user-name {
-    display: grid;
-    row-gap: 3px;
-}
-
-.profile-id {
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.profile-id:hover {
-    color: #8686f6;
-    transition: 0.3s;
-}
-
-.statistics-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.statistics-number {
-    text-align: center;
-}
-
-.nav-list {
-    display: grid;
-    row-gap: 10px;
-    margin-top: 30px;
-}
-
-.nav-button {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #919191;
-}
-
-.nav-button:hover {
-    background: #8686f6;
-    color: #ffffff;
-    transition: 0.3s;
-}
-
-.nav-button:hover path {
-    fill: #ffffff;
-}
-
-.nav-button:hover svg {
-    fill: #ffffff;
-}
-
-.nav-button svg {
-    width: 30px;
-    fill: #919191;
-}
-
-.nav-button path {
-    fill: #919191;
-}
-
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .other-wrapper {
     padding-left: 30px;
 }
@@ -111,7 +25,116 @@ hr {
 
 /* content-wrapper*/
 
-.content-wrapper {
+.content-wrapper{
+    overflow-y: scroll;
+    height: calc(100vh - 110px);
+}
+
+.feed-form {
     background: #F7F7FC;
     border-radius: 10px;
+    padding: 20px;
+}
+
+.feed-input{
+    width: 100%;
+    height: 70px;
+    border: none;
+    outline: none;
+    background: none;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.feed-input:focus + hr{
+    height: 3px;
+    background: #8686f6;
+    transition: 0.3s;
+    transform: scaleX(102%);
+}
+
+.feed-form hr {
+    height: 3px;
+    transition: 0.3s;
+    background: #e3e3e3;
+    margin: 0 0 10px;
+    border: none;
+}
+
+.share-feed{
+    display: grid;
+    place-items: end;
+}
+
+.share-button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #e3e3e3;
+    transition: 0.3s;
+    color: #707070;
+}
+
+.share-button:hover{
+    background: #8686f6;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.feed {
+    margin-top: 50px;
+    display: grid;
+    row-gap: 20px;
+}
+
+.news{
+    background: #F7F7FC;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.news-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-header .avatar{
+    width: 32px;
+    height: 32px;
+}
+
+.news-header-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.news-owner{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.news-other{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    transform: rotate(90deg);
+}
+
+.news-content{
+    margin-top: 30px;
+}
+
+.news-text{
+    font-weight: 300;
+}
+
+.news-img{
+    margin-top: 30px;
+    object-fit: fill;
+    width: 100%;
 }

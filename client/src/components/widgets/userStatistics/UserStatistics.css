@@ -1,0 +1,19 @@
+.user-statistics {
+    background: #F7F7FC;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.user-main-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.statistics-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+

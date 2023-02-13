@@ -1,0 +1,53 @@
+
+.functional-wrapper {
+    padding-right: 30px;
+}
+
+
+
+
+
+
+.nav-list {
+    display: grid;
+    row-gap: 10px;
+    margin-top: 30px;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #919191;
+}
+
+.nav-button:hover {
+    background: #8686f6;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.nav-button:hover path {
+    fill: #ffffff;
+}
+
+.nav-button:hover svg {
+    fill: #ffffff;
+}
+
+.nav-button svg {
+    width: 30px;
+    fill: #919191;
+}
+
+.nav-button path {
+    fill: #919191;
+}
+
+.functional-wrapper hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

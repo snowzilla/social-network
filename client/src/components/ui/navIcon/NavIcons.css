@@ -14,6 +14,11 @@ rect {
     fill: none;
 }
 
+.nav-icon svg:hover path{
+    fill: #8686f6;
+    transition: 0.2s;
+}
+
 .nav-notification,
 .nav-chat {
     position: relative;

@@ -1,0 +1,14 @@
+.user-name {
+    display: grid;
+    row-gap: 3px;
+}
+
+.profile-id {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile-id:hover {
+    color: #8686f6;
+    transition: 0.3s;
+}
